@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" onsubmit=" return checkForm(this)">
+        <label for="surname">Фамилия:</label>
+        <input type="text" id="surname" placeholder="Иванов">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" placeholder="Иван">
+        <label for="password">Введите пароль:</label>
+        <input type="password" id="password" placeholder="Ваш пароль">
+        <label for="password_rep">Повторите пароль:</label>
+        <input type="password" id="password_rep" placeholder="Ваш пароль">
+        <input type="submit" class="submit" id="button" value="Отправить">
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(212, 167, 174);
+    margin: 0;
+    padding: 0;
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: rgb(212, 167, 174);
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+input, label{
+    margin: 7px;
+    font-size: 36px;
+}
+input{
+    border: 2px solid black;
+}
+.submit{
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 600px){
+    input, label{
+        margin: 7px;
+        font-size: 22px;
+    }
+}
